@@ -34,8 +34,10 @@
 					</form>
 				</div>
 			</div>
+			<?php if ( has_nav_menu( 'primary-menu' ) ) { ?>
 			<nav role="navigation">
 				<?php wp_nav_menu(array ('theme_location' => 'primary-menu', 'container' => false, 'container_class' => '', 'menu_class' => 'header-menu', 'fallback_cb' => 'wp_page_menu') ); ?>
 			</nav>
+			<?php } ?>
 		</div>
 	</header>
