@@ -4,7 +4,7 @@
 function kirameki_jquery_load() {
     if ( !is_admin() ) {
         wp_deregister_script( 'jquery' );
-        wp_enqueue_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js', array(), '2.2.0', false );
+        wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js', array(), '2.2.4', false );
     }
 }
 add_action( 'wp_enqueue_scripts', 'kirameki_jquery_load' );

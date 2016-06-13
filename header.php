@@ -21,14 +21,14 @@
 		<div class="header-container">
 			<div class="header-top">
 				<div class="header-menu-btn">
-					<i class="fa fa-fw fa-bars"></i>
+					<i class="fa fa-bars"></i>
 				</div>
 				<?php ( is_front_page() && is_home() ) ? $para = 'h1' : $para = 'p'; ?>
 				<<?php echo $para; ?> class="header-logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="logo" rel="home"><img src="<?php header_image(); ?>" alt="<?php echo get_bloginfo( 'name' ) . ' - ' . get_bloginfo( 'description' ); ?>"></a>
 				</<?php echo $para; ?>>
 				<div class="search-box" role="search">
-					<form method="get" class="fa fa-fw fa-search search-form" action="<?php echo home_url('/'); ?>">
+					<form method="get" class="fa fa-search search-form" action="<?php echo home_url('/'); ?>">
 						<input type="search" placeholder="SEARCH..." value="" name="s" class="search-field" />
 						<input type="submit" value="Search" />
 					</form>
