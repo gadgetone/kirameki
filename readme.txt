@@ -3,7 +3,7 @@
 WordPressテーマ「Kirameki」 readme
 制作チーム: gadgetone（ガジェトーン）
 URL: https://gadgetone.net/
-バージョン: 1.1
+バージョン: 1.2
 動作確認環境: WordPress 4.4.2 / PHP7
 ライセンス: GPLv2かまたはそれ以降のGPLバージョン
 ライセンスURL: http://www.gnu.org/licenses/gpl-2.0.html
